@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: rgb(94, 97, 239);
+    height:100vh;
+    margin-top:60px;
+  
+  
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    background-color:rgb(29, 29, 29);
+    width:100%;
+    padding: 20px 50px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    font-family: "UnifrakturMaguntia",sans-serif;
+
+}
+.logo{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "UnifrakturMaguntia",sans-serif;
+}
+.navbar a:hover{
+    background-color: rgb(236, 128, 229);
+}
+ 
+.box1{
+    border: 5px solid black;
+    height: 50vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(217, 184, 218);
+    border-radius: 10px;
+    gap: 160px;
+    padding:80px;
+}
+
+.text{
+    border: 5px solid black;
+    
+}
+
+.photo{
+    
+}
+.photo img{
+    border: 5px solid black;
+    width:300px;
+    height:auto;
+    
+}
+
+.box2{
+    border: 5px solid black;
+    height: 50vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(133, 196, 251);
+    border-radius: 10px;
+}
