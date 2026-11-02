@@ -45,19 +45,22 @@ body{
     color: azure;
     background-image:linear-gradient(to right, rgb(162, 0, 255), rgb(229, 154, 253),rgb(254, 126, 242));
     border: 3px solid rgb(24, 255, 16);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wordbox h3{
     margin:0;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-size: 90px;
+    font-family: "Manufacturing Consent",sans-serif;
+    font-weight: 400;
     border: 3px solid rgb(255, 255, 255);
     width:fit-content;
-    height:auto;
+    height:fit-content;
     margin-top:20px;
     margin-left: 30px;
+   
 }
 .wordbox p{
  border: 3px solid black;
@@ -74,7 +77,7 @@ body{
 
 
 .top3{
-    border:5px solid black;
+    border:5px solid rgb(255, 0, 255);
     background-color:rgb(32, 32, 32);
     display: flex;
     justify-content: space-evenly;
@@ -84,6 +87,19 @@ body{
 
 
 }
+
+.top3 h3 {
+    border: 5px solid rgb(255, 0, 179);
+    color: white;
+    align-self: flex-start;
+    text-align: center;
+
+}
+
+.weekly h2{
+    border: 5px solid pink;
+}
+
  .image img{
     margin-top: 20%;
     display:block;
